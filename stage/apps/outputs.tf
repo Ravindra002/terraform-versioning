@@ -1,3 +1,3 @@
 output "elb_dns_name" {
-  value = "${module.webservers.DNS_name_elb}"
+  value = "${module.webserver-module-v1.DNS_name_elb}"
 }
