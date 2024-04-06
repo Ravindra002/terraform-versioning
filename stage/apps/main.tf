@@ -7,7 +7,7 @@ module "webserver-module" {
 }
 resource "aws_security_group_rule" "allow_mytest" {
   type = "ingress"
-  security_group_id = module.webserver-module-v1.my_module_sg_id
+  security_group_id = module.webserver-module.my_module_sg_id
           from_port = "20000"
          to_port = "20000"
          protocol = "tcp"

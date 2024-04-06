@@ -6,7 +6,7 @@ name = "${var.cluster}-webservers_autoscale_policy"
   predefined_metric_specification {
     predefined_metric_type = "ASGAverageCPUUtilization"
   }
-  target_value = "70"
+  target_value = "50"
   }
 
 }
