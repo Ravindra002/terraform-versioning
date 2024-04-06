@@ -1,5 +1,5 @@
 module "webservers" {
-  source        = "git::https://github.com/cloudiac18/ultimate-terraform-course-for-devops.git//Section-05-modules/module/webservers-elb-asg?ref=v0.0.12"
+  source        = "../../modules/webserver-module-v1"
   instance_type = "t2.micro"
   environment = "prod"
   cluster = "prod"
