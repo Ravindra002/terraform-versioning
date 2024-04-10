@@ -1,5 +1,5 @@
 module "webserver-module" {
-  source        = "git::https://github.com/Ravindra002/terraform-versioning.git//modules/webserver-module?ref=v1.1"
+  source        = "git::https://github.com/Ravindra002/terraform-versioning.git//modules/webserver-module?ref=v1.2"
   instance_type = "t2.micro"
   environment = "prod"
   cluster = "prod"
